@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
 </head>
-
 <body>
     <!--Nav bar-->
     <nav class="nav__bar">
@@ -53,17 +52,13 @@
     <!-- About us -->
     <section class="about" id="about">
         <div class="contents">
-            <div class="home__title">
+            <div class="about__title">
                 <h2 class="title"><span>About</span> us</h2>
                 <h3 class="subTitle">Fresh from the farm</h3>
             </div>
             <p class="text ko">'만나청과'는 고당도 고품질 프리미엄 과일만을 엄선하여 판매합니다.<br>
                 주차, 포장, 배달, 예약, 무선 인터넷, 반려동물 동반, 장애인 편의시설, 지역화폐(지류형), 지역화폐(카드형)
-                </p>
-            <ul class="image">
-                <li><img src="/img/info1.png" alt=""></li>
-                <li><img src="/img/info2.png" alt=""></li>
-            </ul>
+            </p>
         </div>
     </section>
 
@@ -76,28 +71,34 @@
             </div>
             <ul class="box">
                 <li><a href="#">
-                    <i class="fas fa-box-open"></i>
-                    <p class="itemTitle">pick <br>your box style</p>
-                    <p class="textWhite">We deliver organic fruits & vegetables fresh from our fields to your doorstep. </p>
-                </a></li>
+                        <i class="fas fa-box-open"></i>
+                        <p class="itemTitle">pick <br>your box style</p>
+                        <p class="textWhite">We deliver organic fruits & vegetables fresh from our fields to your
+                            doorstep. </p>
+                    </a></li>
                 <li><a href="#">
-                    <i class="fas fa-carrot"></i>
-                    <p class="itemTitle">Customize <br>your produce</p>
-                    <p class="textWhite">We deliver organic fruits & vegetables fresh from our fields to your doorstep. </p>
-                </a></li>
+                        <i class="fas fa-carrot"></i>
+                        <p class="itemTitle">Customize <br>your produce</p>
+                        <p class="textWhite">We deliver organic fruits & vegetables fresh from our fields to your
+                            doorstep. </p>
+                    </a></li>
                 <li><a href="#">
-                    <i class="fas fa-shopping-cart"></i>
-                    <p class="itemTitle">Add <br>farm products</p>
-                    <p class="textWhite">We deliver organic fruits & vegetables fresh from our fields to your doorstep. </p>
-                </a></li>
+                        <i class="fas fa-shopping-cart"></i>
+                        <p class="itemTitle">Add <br>farm products</p>
+                        <p class="textWhite">We deliver organic fruits & vegetables fresh from our fields to your
+                            doorstep. </p>
+                    </a></li>
                 <li><a href="#">
-                    <i class="fas fa-truck"></i>
-                    <p class="itemTitle">We deliver <br>& You enjoy</p>
-                    <p class="textWhite">We deliver organic fruits & vegetables fresh from our fields to your doorstep. </p>
-                </a></li>
-            </ul>
+                        <i class="fas fa-truck"></i>
+                        <p class="itemTitle">We deliver <br>& You enjoy</p>
+                        <p class="textWhite">We deliver organic fruits & vegetables fresh from our fields to your
+                            doorstep. </p>
+                    </a></li>
+            </ul>               
         </div>
     </section>
+
+    <!-- Order -->
     <section class="order" id="order">
         <div class="contents">
             <div class="features__title">
@@ -170,6 +171,58 @@
                 </li>
             </ul>
     </section>
+    <!-- contact us -->
+    <section class="contact" id="contact">
+        <div class="contents">
+            <div class="contact__title">
+                <h2 class="title">Contact<span> us</span></h2>
+                <h3 class="subTitle">Get in touch</h3>
+            </div>
+            <div class="contact__left">
+                <h4>For any queries and Support</h4>
+                <ul class="contact__info">
+                    <li>
+                        <i class="fas fa-location-arrow"></i>
+                    </li>
+                    <li>
+                        <p class="text">Store Location</p>
+                        <p>19, Habosang-gil, Bongdong-eup, <br>
+                            Wanju_Gun, Jeollabuk-do, Republic of Korea</p>
+                    </li>
+                </ul>
+                <ul class="contact__info">
+                    <li>
+                        <i class="fas fa-envelope-open-text"></i>
+                    </li>
+                    <li>
+                        <p class="text">Write to us at</p>
+                        <p>mannafruits@gmail.com</p>
+                    </li>
+                </ul>
+                <ul class="contact__info">
+                    <li>
+                        <i class="fas fa-phone-volume"></i>
+                    </li>
+                    <li>
+                        <p class="text">Call us on</p>
+                        <p>010-3672-6725</p>
+                    </li>
+                </ul>
+            </div>
+            <form class="contact__right">
+                <input type="text" placeholder="Your Name" class="form__control">
+                <input type="text" placeholder="Your Phone" class="form__control">
+                <textarea placeholder="Your Message" class="form__control"></textarea>
+                <button class="btn2">Send Message</button>
+            </form>
+    </section>
+    <section>
+        <div class="contents">
+            <div id="map" style="width:100%;height:350px;"></div>
+        </div>
+    </section>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=93ad1ae93cd930f94591123d80144e24"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
